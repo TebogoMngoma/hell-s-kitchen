@@ -1,0 +1,74 @@
+h1 {
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+}
+h2 {
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+}
+.description {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.food-menu {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+.sub-container {
+  background-color: tan;
+  padding: 30px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+}
+.blue {
+  width: 250px;
+  height: 200px;
+  background-color: blue;
+}
+.purple {
+  width: 250px;
+  height: 200px;
+  background-color: purple;
+}
+.orange {
+  width: 250px;
+  height: 200px;
+  background-color: orange;
+}
+.green {
+  width: 250px;
+  height: 200px;
+  background-color: green;
+}
+.food-items {
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+  gap: 20px;
+}
+.all {
+  border-radius: 15px;
+}
+hr {
+  margin-top: 30px;
+}
+.black {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+.FZ {
+  font-size: 50px;
+  color: #3d9970;
+}
+.black:hover {
+  transform: scale(1.6);
+  border-radius: 30px;
+}
+img:hover {
+  border-radius: 30px;
+}
